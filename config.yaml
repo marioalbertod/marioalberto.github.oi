@@ -32,9 +32,9 @@ params:
   author: "marioalbertod"
   title: "Mario Alberto"
   profilePicture: "images/avatar.jpg"
+  favicon: "favicon.ico"
   MathJaxVersion: 2.7.5
   description: Me gusta jugar al Go
-  favicon: favicon.ico
   highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
   highlightjsLang:
     - r
@@ -46,6 +46,7 @@ params:
     height: 50
     url: logo.png 
     width: 50
+    
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:

@@ -1,14 +1,16 @@
 ---
-title: Hola a Todes
+title: Se vienen cositas
 author: Mario Alberto
 date: '2022-05-19'
 slug: hola-a-todes
-categories: []
-tags: []
+categories: ["bienvenida"]
+tags: ["bienvenida"]
 Description: ''
 Tags: []
 Categories: []
 DisableComments: no
 ---
 
-Este nuevo post
+Este es el primer ensayo para mi blog de opinión, escritura, sociología y otras cosas. Espero que les guste mucho
+
+<3

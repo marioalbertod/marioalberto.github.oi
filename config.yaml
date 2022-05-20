@@ -33,7 +33,7 @@ params:
   title: "Mario Alberto"
   profilePicture: "images/avatar.jpg"
   MathJaxVersion: 2.7.5
-  description: Sociólogo y jugador de Go
+  description: Me gusta jugar al Go
   favicon: favicon.ico
   highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
   highlightjsLang:

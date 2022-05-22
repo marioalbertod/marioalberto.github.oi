@@ -30,11 +30,11 @@ menu:
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   author: "marioalbertod"
-  title: "Mario Alberto"
+  title: "Seki"
   profilePicture: "images/avatar.jpg"
   favicon: "favicon.ico"
   MathJaxVersion: 2.7.5
-  description: Me gusta jugar al Go
+  description: "En el Go, Seki (関) es un término japonés para un punto muerto que no puede ser resuelto en simple vida y muerte. Es a veces traducido como 'vida mutua'."
   highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
   highlightjsLang:
     - r

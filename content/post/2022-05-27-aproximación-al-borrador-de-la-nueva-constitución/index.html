@@ -1,0 +1,340 @@
+---
+title: "Aproximación Al Borrador De La Nueva Constitución"
+date: 2022-05-27
+Description: ""
+Tags: ["R", "constitución", "política"]
+Categories: []
+DisableComments: false
+---
+
+
+
+<p>Ya publicada el borrador de la nueva constitución por la Convención Constitucional. Sin dudas se trata de un documento extenso por la gran cantidad de artículos aprobados. También se trata de un texto de enorme utilidad en tanto contiene redundancias que permiten, a veces a riesgo de la coherencia interna del texto, el análisis cuantitativo del borrador.</p>
+<p>El objeto del ejercicio es aportar conceptos clave, que intencionen el análisis crítico y la difusión informada del proceso. Se busca comparar al borrador emanado por la Convención Constitucional con el texto constitucional Pinochet-Lagos.</p>
+<div id="palabras-frente-a-palabras" class="section level2">
+<h2>Palabras frente a palabras</h2>
+<p>Mediante nube de palabras se analizaron ambos textos, presentando las frecuencias de las palabras más utilizadas en cada constitución.</p>
+<div id="constitución-de-1980-pinochet-lagos" class="section level3">
+<h3>Constitución de 1980 (Pinochet-Lagos)</h3>
+<p>En el caso de la constitución de 1980, se puede apreciar un sentido fuertemente procedimental. Predominando el lugar del <strong>presidente de la república</strong> y una serie dispositivos funcionales que permiten el desenvolvimiento de procedimental del texto constitucional.</p>
+<p>Se trata de un texto donde donde predominan conceptos procedimentales, en su narrativa no se reitera principios rectores, más bien se encuentran implícitos. Sus énfasis se pueden observarsen en conceptos como ejercicio, suprema, incisos, constitucional, senado y congreso.</p>
+<p><img src="images/wordcloud_const1980.png" /></p>
+</div>
+<div id="propuesta-borrador-convención-constitucional-2022" class="section level3">
+<h3>Propuesta Borrador Convención Constitucional 2022</h3>
+<p>La propuesta emanada de la Convención, por su parte, arroja una serie de conceptos con mayor carga normativa, la idea de <strong>derecho</strong> y <strong>derechos</strong> presentan la mayor frecuencia de aparición en el texto, teniendo también preponderancia el concepto <em>personas</em>, sin por esto dejar de dialogár con palabras como <em>república</em>, <em>regional</em>, <em>diputadas</em> y <em>diputados</em>.</p>
+<p><img src="images/wordfcloud_nc.png" /></p>
+</div>
+</div>
+<div id="correlaciones-de-conceptos-y-palabras." class="section level2">
+<h2>Correlaciones de conceptos y palabras.</h2>
+<p>La correlación de palabras permite conocer qué palabras se encuentran más cercanas a otras en el texto, estableciendo asociaciones a partir de conceptos clave que nos interesa conocer.</p>
+<div id="constitución-de-1980-pinochet-lagos-1" class="section level3">
+<h3>Constitución de 1980 (Pinochet-Lagos)</h3>
+<pre><code>## $libertad
+## provisional    personal 
+##        0.35        0.31 
+## 
+## $igualdad
+## numeric(0)
+## 
+## $dignidad
+## condenatoria       libres    mantendrá        nacen 
+##         0.38         0.38         0.38         0.38 
+## 
+## $solidario
+## numeric(0)
+## 
+## $solidaridad
+##    referente distribución 
+##          1.0          0.5 
+## 
+## $derecho
+## numeric(0)
+## 
+## $derechos
+## numeric(0)
+## 
+## $mujeres
+##     pise esclavos  iguales    queda 
+##     1.00     0.71     0.71     0.50 
+## 
+## $hombres
+## nacimiento       pise 
+##       0.41       0.41 
+## 
+## $propiedad
+## numeric(0)
+## 
+## $oportunidades
+##  asegurará vinculante 
+##       0.41       0.41 
+## 
+## $mercado
+## numeric(0)
+## 
+## $individuos
+## numeric(0)
+## 
+## $pueblos
+## numeric(0)
+## 
+## $oprimidos
+## numeric(0)
+## 
+## $expropiación
+## invoquen 
+##      0.5 
+## 
+## $educación
+## numeric(0)
+## 
+## $vivienda
+## numeric(0)
+## 
+## $educadores
+## numeric(0)
+## 
+## $profesores
+## numeric(0)
+## 
+## $profesoras
+## numeric(0)
+## 
+## $economía
+##      actuará paralización   secretario        cause     finanzas     utilidad 
+##         0.71         0.71         0.50         0.41         0.41         0.41 
+##        grave         cuya        mayor 
+##         0.35         0.32         0.32 
+## 
+## $minería
+##       código        cobre        dicta         gran        nuevo prevalecerán 
+##         0.60         0.50         0.50         0.50         0.50         0.50 
+## consideradas 
+##         0.35 
+## 
+## $patrimoniales
+##       morales       sufrido    perjuicios indemnización 
+##          1.00          0.58          0.50          0.32 
+## 
+## $patrimonio
+##    afectos  ambiental incremento     propio 
+##       0.41       0.41       0.41       0.33 
+## 
+## $sindicales
+## organizaciones     intervenir        gozarán   personalidad 
+##           0.64           0.50           0.41           0.35 
+## 
+## $sindical
+## empresarial estudiantil  voluntaria    jurídico previsional  sindicatos 
+##        0.45        0.45        0.45        0.32        0.32        0.32 
+## 
+## $trabajadores
+##    conflictos     laborales       mínimas negociaciones      negociar 
+##          0.50          0.50          0.50          0.35          0.35 
+##       permita        sector       privado 
+##          0.35          0.35          0.33</code></pre>
+</div>
+<div id="propuesta-borrador-convención-constitucional-2022-1" class="section level3">
+<h3>Propuesta Borrador Convención Constitucional 2022</h3>
+<pre><code>## $libertad
+##    privación compensacio´n   compensada   expresio´n       fijado      i´ndole 
+##         0.37         0.33         0.33         0.33         0.33         0.33 
+##     indebida    juri´dica     opinio´n  permanecido   privacio´n     privadas 
+##         0.33         0.33         0.33         0.33         0.33         0.32 
+## 
+## $igualdad
+##       sustantiva           fundan multilateralismo         pacífica 
+##             0.68             0.32             0.32             0.32 
+##     privilegiado          respeto 
+##             0.32             0.32 
+## 
+## $dignidad
+##      asimetrías        atributo   desarrollarse       envejecer          humana 
+##            0.41            0.41            0.41            0.41            0.41 
+##         iguales     indisoluble institucionales     intrínsecos  investigativos 
+##            0.41            0.41            0.41            0.41            0.41 
+##           nacen      permanecen          plenos       recíproco           seres 
+##            0.41            0.41            0.41            0.41            0.41 
+##       superando         valores 
+##            0.41            0.41 
+## 
+## $solidario
+##        arbitrarias       empobrecidos      estableciendo         horizontal 
+##               0.89               0.89               0.63               0.63 
+##        localidades       propendiendo            urbanas         vulnerados 
+##               0.63               0.63               0.63               0.63 
+##           armónico        diferencias            habiten         equitativo 
+##               0.54               0.52               0.52               0.50 
+##        afirmativas     históricamente         incorporen interseccionalidad 
+##               0.45               0.45               0.45               0.45 
+##             mismas            equidad        promoviendo          provisión 
+##               0.45               0.43               0.40               0.40 
+##            permita        tratamiento       prestaciones         progresivo 
+##               0.36               0.36               0.34               0.32 
+##            rurales 
+##               0.32 
+## 
+## $solidaridad
+##          asocian        coordinan         evitando            mutuo 
+##             0.45             0.45             0.45             0.45 
+##     reciprocidad      cooperación       principios interterritorial 
+##             0.45             0.39             0.38             0.33 
+##       duplicidad          equidad 
+##             0.32             0.32 
+## 
+## $derecho
+##    toda persona 
+##    0.39    0.35 
+## 
+## $derechos
+##         humanos     ratificados   fundamentales internacionales        tratados 
+##            0.53            0.37            0.36            0.36            0.36 
+##         respeto        vigentes 
+##            0.33            0.32 
+## 
+## $mujeres
+## sexogenéricas   disidencias  diversidades     cincuenta   embarazadas 
+##          0.58          0.54          0.47          0.41          0.41 
+##         parto      promueve 
+##          0.41          0.30 
+## 
+## $hombres
+##    participen    sustantivo        mínima  reconociendo sexogenéricas 
+##          1.00          1.00          0.71          0.71          0.50 
+##  diversidades   democrático   disidencias     paritaria      promueve 
+##          0.41          0.38          0.38          0.35          0.35 
+##    democracia     condición 
+##          0.34          0.32 
+## 
+## $propiedad
+## concentración     colectivo      impedirá 
+##          0.52          0.36          0.36 
+## 
+## $oportunidades
+##     adicionales      argumentos representativos      audiencias       exclusión 
+##            0.58            0.58            0.58            0.47            0.41 
+##          apoyos      sustantiva 
+##            0.33            0.31 
+## 
+## $mercado
+##       comprar    secundario  transitorias        vender      externos 
+##          1.00          1.00          1.00          1.00          0.71 
+##        normal excepcionales      internos      requiera       abierto 
+##          0.71          0.58          0.58          0.58          0.50 
+##   determinado         deuda         fisco         pagos   situaciones 
+##          0.50          0.50          0.50          0.50          0.41 
+##  preservación 
+##          0.38 
+## 
+## $individuos
+##       embarazo         gestar interferencias   interrupción     violencias 
+##           1.00           1.00           1.00           1.00           1.00 
+##    voluntarios          parto     protegidos     maternidad     requeridos 
+##           1.00           0.71           0.71           0.58           0.58 
+##     voluntaria  reproductivos       terceros           ello      capacidad 
+##           0.58           0.45           0.45           0.41           0.38 
+##   prestaciones       sexuales      garantiza    pertinencia 
+##           0.38           0.38           0.35           0.33 
+## 
+## $pueblos
+##        naciones       indígenas   preexistentes representativas    repatriación 
+##            0.72            0.68            0.42            0.34            0.33 
+##        tribales          restos 
+##            0.33            0.32 
+## 
+## $oprimidos
+##     sustantiva      excluidos históricamente           goce     libertades 
+##           0.53           0.50           0.50           0.41           0.41 
+##          trato       garantía     diversidad         grupos 
+##           0.41           0.38           0.35           0.33 
+## 
+## $expropiación
+##   invocada     llevar      causa       cabo   autorice legislador   utilidad 
+##       0.71       0.50       0.47       0.41       0.35       0.35       0.35 
+##  declarado    fundada    privada 
+##       0.32       0.32       0.32 
+## 
+## $educación
+##       asistentes           claves     contribución          creadas 
+##             0.40             0.40             0.40             0.40 
+##      fundamental           valora       primordial         superior 
+##             0.40             0.40             0.35             0.35 
+## establecimientos        formación      reconocidas 
+##             0.32             0.31             0.30 
+## 
+## $vivienda
+##     desmedro especulación         vaya        suelo 
+##         0.58         0.58         0.58         0.52 
+## 
+## $educadores
+##    asistentes        claves  contribución   fundamental        valora 
+##          0.89          0.89          0.89          0.89          0.89 
+##       agentes           rol tradicionales       fomenta      garantía 
+##          0.63          0.40          0.40          0.34          0.34 
+##       cátedra 
+##          0.32 
+## 
+## $profesores
+##    asistentes        claves  contribución   fundamental        valora 
+##          0.71          0.71          0.71          0.71          0.71 
+##       agentes       cátedra           rol tradicionales 
+##          0.50          0.50          0.32          0.32 
+## 
+## $profesoras
+##    asistentes        claves  contribución   fundamental        valora 
+##          1.00          1.00          1.00          1.00          1.00 
+##       agentes           rol tradicionales       fomenta      garantía 
+##          0.71          0.45          0.45          0.38          0.38 
+## profesionales 
+##          0.32 
+## 
+## $economía
+##        circular diversificación         fundará       participa       circuitos 
+##            0.58            0.58            0.58            0.58            0.41 
+##       coherente          cortos       económico      productiva 
+##            0.41            0.41            0.36            0.33 
+## 
+## $minería
+##        pequeña    pirquineros       agregado     facilitará     generación 
+##           0.82           0.82           0.71           0.71           0.71 
+## encadenamiento   herramientas    tradicional          valor    sustentable 
+##           0.50           0.50           0.50           0.50           0.41 
+##     tecnología     productivo    tecnologías 
+##           0.41           0.35           0.35 
+## 
+## $patrimoniales
+##         autor   científicas      componen   intangibles intelectuales 
+##          0.71          0.71          0.71          0.71          0.71 
+## interrelación       morales    simbólicas     tangibles      armónica 
+##          0.71          0.71          0.71          0.71          0.50 
+##    artísticas comprendiendo    arbitraria cosmovisiones         obras 
+##          0.50          0.50          0.41          0.41          0.41 
+##      inferior   promoviendo 
+##          0.35          0.32 
+## 
+## $patrimonio
+##       propio personalidad     autónomo     jurídica    positivas    organismo 
+##         0.70         0.58         0.53         0.46         0.35         0.31 
+## 
+## $sindicales
+## organizaciones      decidirán     defenderán      limitados   trabajadoras 
+##           0.65           0.58           0.58           0.58           0.43 
+##      gremiales         huelga     pertenecer     postularse      controles 
+##           0.41           0.41           0.41           0.41           0.33 
+##       partidos 
+##           0.33 
+## 
+## $sindical
+## sindicalización       colectiva          huelga     previsional          sector 
+##            0.63            0.51            0.47            0.45            0.40 
+## 
+## $trabajadores
+##   trabajadoras    negociación         únicas  concernientes        fijados 
+##           0.86           0.51           0.49           0.46           0.46 
+##          ramal      sectorial      colectiva    empleadores   cotizaciones 
+##           0.46           0.46           0.35           0.34           0.32 
+##         elegir        empresa irrenunciables 
+##           0.32           0.32           0.32</code></pre>
+</div>
+</div>

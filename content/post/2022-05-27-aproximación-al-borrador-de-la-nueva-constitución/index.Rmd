@@ -7,20 +7,20 @@ Categories: []
 DisableComments: false
 ---
 
-Ya publicada el borrador de la nueva constitución por la Convención Constitucional. Sin dudas se trata de un documento extenso por la gran cantidad de artículos aprobados. También se trata de un texto de enorme utilidad en tanto contiene redundancias que permiten, a veces a riesgo de la coherencia interna del texto, el análisis cuantitativo del borrador.
+Ya publicado el borrador de la nueva constitución por la Convención Constitucional; sin dudas se trata de un documento extenso por la gran cantidad de artículos aprobados. También se trata de un texto de enorme utilidad en tanto contiene redundancias que permiten, a veces a riesgo de la coherencia interna del texto, el análisis cuantitativo del mismo.
 
 El objeto del ejercicio es aportar conceptos clave, que intencionen el análisis crítico y la difusión informada del proceso. Se busca comparar al borrador emanado por la Convención Constitucional con el texto constitucional Pinochet-Lagos.
 
 ## Palabras frente a palabras
 
-Mediante nube de palabras se analizaron ambos textos, presentando las frecuencias de las palabras más utilizadas en cada constitución.
+Mediante _wordcloud_ se analizaron ambos textos, presentando las frecuencias de las palabras más utilizadas en cada constitución.
 
 
 ### Constitución de 1980 (Pinochet-Lagos)
 
-En el caso de la constitución de 1980, se puede apreciar un sentido fuertemente procedimental. Predominando el lugar del **presidente de la república** y una serie dispositivos funcionales que permiten el desenvolvimiento de procedimental del texto constitucional.
+En el caso de la constitución de 1980, se puede apreciar un sentido fuertemente procedimental. Predominando el lugar del **presidente de la república** y una serie dispositivos o conceptos funcionales que permiten el desenvolvimiento y reproducción del texto constitucional. 
 
-Se trata de un texto donde donde predominan conceptos procedimentales, en su narrativa no se reitera principios rectores, más bien se encuentran implícitos. Sus énfasis se pueden observarsen en conceptos como ejercicio, suprema, incisos, constitucional, senado y congreso.
+Se trata de un texto donde donde predominan instituciones y funciones, en su narrativa no se reitera principios rectores, más bien se encuentran implícitos. Sus énfasis se pueden observarsen en conceptos como _ejercicio_, _suprema_, _incisos_, _constitucional_, _senado_ y _congreso_.
 
 ![](images/wordcloud_const1980.png)
 
@@ -35,6 +35,7 @@ La propuesta emanada de la Convención, por su parte, arroja una serie de concep
 La correlación de palabras permite conocer qué palabras se encuentran más cercanas a otras en el texto, estableciendo asociaciones a partir de conceptos clave que nos interesa conocer.
 
 ### Constitución de 1980 (Pinochet-Lagos)
+
 
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
@@ -169,5 +170,16 @@ findAssocs(nov_tdm1, terms = c("libertad","igualdad", "dignidad", "solidario",
            corlimit = .30)
 
 ```
+
+## Discusión
+
+El análisis comparado de ambos textos nos permite introducir la lectura del borrador presentado por la CC. El análisis de correlaciones nos indica que la constitución Pinochet-Lagos carece de correlaciones con principios y se encuentra orientada a procesos y procedimientos manteniendo su _visión de mundo_ implícita, una suerte de _currículum oculto_, no declarado que opera fuertemente en los procesos de producción de leyes y normas. 
+
+Por su parte la propuesta de borrador es mucho más normativa y transparente en sus principios y sentidos. Los conceptos emergentes presentan un diversas dimensiones del mismo principio, **no se trata de un abordaje acotado de dichos princpios**, mas bien un conjunto equilibrado de valores en torno a ello. Muestra de esto es la idea de _libertad_; en la constitución Pinochet-Lagos se encuentra restringida a _provisional_ y _personal_ con correlaciones de 0.35 en tanto en el borrador presentado por la CC, aparece adicionalmente la _libertad de opinión_, la _compensación_ y otros conceptos relativos a ella, que enriquecen su ascepción y la hacen más plural. Así, conceptos como _expropiación_, _minería_ y _economía_ no se encuentran correlacionados con ascepciones acotadas, es posible observar una relación con una serie de conceptos que limitan y restringen su ejecución (en el caso de la expropiación) y de conceptos que amplían las dimensiones de los conceptos como lo es _agregado_ y _encadenamiento_ en _minería_ y _circular_ y _diversificación_ en economía.
+
+En general en las materias de desarrollo económico y estratégico es posible observar conceptos cuyas correlaciones con otros conceptos son equilibrados y parsimoniosos; en las materias asociadas al reconocimiento de identidades, por su parte, las correlaciones presentadas por el borrador son multidimensionales e integran valores predominantemente laicos y corte liberal.
+
+
+
 
 

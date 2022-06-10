@@ -96,7 +96,7 @@ findAssocs(nov_tdm1, terms = c("libertad","igualdad", "dignidad", "solidario",
                               "individuos", "pueblos", "oprimidos",
                               "expropiación", "educación", "vivienda",
                               "educadores","profesores", "profesoras",
-                              "economía", "minería", "patrimoniales", "patrimonio",
+                              "economía", "minería", "patrimoniales", "patrimonio", "autonomía",
                               "sindicales", "sindical", "trabajadores"),
            corlimit = .30)
 
@@ -165,7 +165,7 @@ findAssocs(nov_tdm1, terms = c("libertad","igualdad", "dignidad", "solidario",
                               "individuos", "pueblos", "oprimidos",
                               "expropiación", "educación", "vivienda",
                               "educadores","profesores", "profesoras",
-                              "economía", "minería", "patrimoniales", "patrimonio",
+                              "economía", "minería", "patrimoniales", "patrimonio", "autonomía",
                               "sindicales", "sindical", "trabajadores"),
            corlimit = .30)
 

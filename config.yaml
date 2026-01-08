@@ -22,7 +22,7 @@ menu:
       identifier: "posts"
       url: "/post/"
     - name: CV  
-      url: /files/cv_mario_dominguez.pdf # (O el nombre nuevo si lo cambiaste)
+      url: /files/cv_mario_dominguez1.pdf # (O el nombre nuevo si lo cambiaste)
       weight: 100 
     - name: GitHub
     - name: GitHub

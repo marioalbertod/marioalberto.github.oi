@@ -21,6 +21,10 @@ menu:
       weight: 200
       identifier: "posts"
       url: "/post/"
+    - name: CV  
+      url: /files/cv_mario_dominguez.pdf # (O el nombre nuevo si lo cambiaste)
+      weight: 100 
+    - name: GitHub
     - name: GitHub
       url: https://github.com/marioalbertod
     - name: Twitter
@@ -52,3 +56,6 @@ markup:
   goldmark:
     renderer:
       unsafe: yes
+      
+      
+      
